@@ -1,0 +1,45 @@
+import {NavLink} from "react-router-dom";
+import MainMenu from "../common/MainMenu";
+import Slider from "./Slider";
+import React from "react";
+import PropTypes from "prop-types";
+
+
+const HomeMenu = ({activeStyle}) => {
+
+  return (
+    <div>
+      <div className="banner">
+        <div className="w3ls-slider">
+          <div className="header-top">
+            <div className="container banner-drop">
+              <div className="agile-logo">
+                <h1><NavLink exact to="/">Bulls<span>Torino Powerlifting</span></NavLink></h1>
+              </div>
+              <div className="header-right">
+                <MainMenu activeStyle={activeStyle}/>
+                <div className="menu-icon"><span></span></div>
+              </div>
+              <div className="clearfix"></div>
+
+            </div>
+          </div>
+          <Slider/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+        </div>
+
+      </div>
+    </div>
+  );
+
+};
+
+HomeMenu.propTypes = {
+  activeStyle: PropTypes.object.isRequired
+};
+
+export default HomeMenu;
