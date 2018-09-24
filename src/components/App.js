@@ -1,22 +1,13 @@
 /* eslint-disable import/no-named-as-default */
-import {NavLink, Route, Switch} from "react-router-dom";
+import {Route, Switch} from "react-router-dom";
 
-//import AboutPage from "./AboutPage";
-//import FuelSavingsPage from "./containers/FuelSavingsPage";
-//import HomePage from "./HomePage";
-//import NotFoundPage from "./NotFoundPage";
 import PropTypes from "prop-types";
 import React from "react";
 import {hot} from "react-hot-loader";
 import HomePage from "./homepage/HomePage";
-//import BullsServices from "./homepage/BullsServices";
-import Slider from "./homepage/Slider";
-//import BullsText from "./homepage/BullsText";
-//import SocialGrids from "./homepage/SocialGrids";
-//import JarallaxHistory from "./homepage/JarallaxHistory";
+import AboutPage from "./about/AboutPage";
 import Footer from "./common/Footer";
 import Copyrights from "./common/Copyrights";
-import MainMenu from "./common/MainMenu";
 import HomeMenu from "./homepage/HomeMenu";
 
 // This is a class-based component because the current
@@ -30,11 +21,12 @@ class App extends React.Component {
     return (
       <div>
         <Switch>
-          <Route exact path="/" component={HomeMenu}/>
+          <Route exact path="/" render={() => <HomeMenu activeStyle={activeStyle}/>}/>
         </Switch>
 
         <Switch>
           <Route exact path="/" component={HomePage}/>
+          <Route path="/about" component={AboutPage}/>
         </Switch>
 
         <div className="clearfix"></div>

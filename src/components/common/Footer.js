@@ -1,7 +1,6 @@
 import FbIFrame from "../homepage/FbIFrame";
 import React from "react";
 import PropTypes from 'prop-types';
-import {NavLink} from "react-router-dom";
 import MainMenu from "./MainMenu";
 
 const Footer = ({activeStyle}) => {
