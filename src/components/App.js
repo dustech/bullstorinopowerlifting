@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 import React from "react";
 import {hot} from "react-hot-loader";
 import HomePage from "./homepage/HomePage";
-import AboutPage from "./about/AboutPage";
+import Header from "./common/Header";
 import Footer from "./common/Footer";
 import Copyrights from "./common/Copyrights";
 import HomeMenu from "./homepage/HomeMenu";
@@ -22,11 +22,12 @@ class App extends React.Component {
       <div>
         <Switch>
           <Route exact path="/" render={() => <HomeMenu activeStyle={activeStyle}/>}/>
+          <Route path="/about" render={() => <Header activeStyle={activeStyle} title={"Chi siamo"}/>}/>
         </Switch>
 
         <Switch>
           <Route exact path="/" component={HomePage}/>
-          <Route path="/about" component={AboutPage}/>
+
         </Switch>
 
         <div className="clearfix"></div>

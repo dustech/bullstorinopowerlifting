@@ -3,7 +3,7 @@ import MainMenu from "../common/MainMenu";
 import PropTypes from "prop-types";
 
 
-const AboutPage = ({activeStyle},{title}) => {
+const Header = ({activeStyle},{title}) => {
   return (
     <div>
       <div className="banner bg-about">
@@ -29,11 +29,11 @@ const AboutPage = ({activeStyle},{title}) => {
   );
 };
 
-AboutPage.propTypes = {
+Header.propTypes = {
   activeStyle: PropTypes.object.isRequired,
   title: PropTypes.string.isRequired
 };
 
 
 
-export default AboutPage;
+export default Header;
