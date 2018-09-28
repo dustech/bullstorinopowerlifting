@@ -1,36 +1,53 @@
 import {NavLink} from "react-router-dom";
 import React from "react";
 import PropTypes from 'prop-types';
+import bindMenu from '../../scripts/bindMenu';
+
+
+class MainMenu extends React.Component {
+
+  componentDidMount(){
+   bindMenu();
+  }
+
+  render() {
+
+    return (
+      <nav>
+        <ul>
+          <li className={this.props.liClass}>
+            <NavLink exact to="/" activeStyle={this.props.activeStyle}><span>Home</span></NavLink>
+          </li>
+          <li className={this.props.liClass}>
+            <NavLink exact to="/about" activeStyle={this.props.activeStyle}><span>Chi siamo</span></NavLink>
+          </li>
+          <li className={this.props.liClass}>
+            <NavLink exact to="/gallery" activeStyle={this.props.activeStyle}><span>Gallery</span></NavLink>
+          </li>
+          <li className={this.props.liClass}>
+            <NavLink exact to="/training" activeStyle={this.props.activeStyle}><span>Allenamento</span></NavLink>
+          </li>
+          <li className={this.props.liClass}>
+            <NavLink exact to="/mail" activeStyle={this.props.activeStyle}><span>Scrivici</span></NavLink>
+          </li>
+        </ul>
+      </nav>
+
+    );
+  }
+
+}
+/*
 
 const MainMenu = ({activeStyle,liClass}) => {
 
-  return (
-    <nav>
-      <ul>
-        <li className={liClass}>
-          <NavLink exact to="/" activeStyle={activeStyle}><span>Home</span></NavLink>
-        </li>
-        <li>
-          <a href="/about"><span>Chi siamo</span></a>
-        </li>
-        <li>
-          <a href="gallery.html"><span>Gallery</span></a>
-        </li>
-        <li>
-          <a href="training.html"><span>Allenamento</span></a>
-        </li>
-        <li>
-          <a href="mail.html"><span>Scrivici</span></a>
-        </li>
-      </ul>
-    </nav>
-
-  );
 
 };
+*/
 
 MainMenu.propTypes = {
-  activeStyle: PropTypes.object.isRequired
+  activeStyle: PropTypes.object.isRequired,
+  liClass: PropTypes.string
 }
 
 export default MainMenu;

@@ -6,12 +6,8 @@ import 'smoothscroll';
 // );
 
 const bindHome =
-function (jarallax) {
-  $(".menu-icon").on("click", function () {
-    $(this).toggleClass("open");
-    $(".container").toggleClass("nav-open");
-    $("nav ul li").toggleClass("animate");
-  });
+function () {
+
 
 
   $("#slider4").responsiveSlides({
@@ -50,11 +46,6 @@ function (jarallax) {
      imgHeight: 768
    })*/
 
-  jarallax(document.querySelectorAll('.jarallax'), {
-    speed: 0.5,
-    imgWidth: 1366,
-    imgHeight: 768
-  });
 
 };
 
