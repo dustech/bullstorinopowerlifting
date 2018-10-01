@@ -12,6 +12,10 @@ import './styles/fontAwesomeImport.scss';
 import './styles/styles.scss';
 import './styles/miFix.scss';
 
+import './styles/table-style.scss';
+import './styles/basictable.scss';
+
+
 import './scripts/scripts';
 
  // Yep, that's right. You can import SASS/CSS files too! Webpack will run the associated loader and plug this into the page.

@@ -10,6 +10,8 @@ import Footer from "./common/Footer";
 import Copyrights from "./common/Copyrights";
 import HomeMenu from "./homepage/HomeMenu";
 import AboutPage from "./about/AboutPage";
+import TrainingPage from "./training/TrainingPage";
+import ContactPage from "./contact/ContactPage";
 // This is a class-based component because the current
 // version of hot reloading won't hot reload a stateless
 // component at the top-level.
@@ -25,11 +27,14 @@ class App extends React.Component {
           <Route path="/about" render={() => <Header activeStyle={activeStyle} title={{value: "Chi siamo"}}/>}/>
           <Route path="/gallery" render={() => <Header activeStyle={activeStyle} title={{value: "Galleria"}}/>}/>
           <Route path="/training" render={() => <Header activeStyle={activeStyle} title={{value: "Allenamento"}}/>}/>
+          <Route path="/mail" render={() => <Header activeStyle={activeStyle} title={{value: "Scrivici"}}/>}/>
         </Switch>
 
         <Switch>
           <Route exact path="/" component={HomePage}/>
           <Route exact path="/about" component={AboutPage}/>
+          <Route exact path="/training" component={TrainingPage}/>
+          <Route exact path="/mail" component={ContactPage}/>
 
         </Switch>
 
