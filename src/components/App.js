@@ -12,6 +12,7 @@ import HomeMenu from "./homepage/HomeMenu";
 import AboutPage from "./about/AboutPage";
 import TrainingPage from "./training/TrainingPage";
 import ContactPage from "./contact/ContactPage";
+import GalleryPage from "./gallery/GalleryPage";
 // This is a class-based component because the current
 // version of hot reloading won't hot reload a stateless
 // component at the top-level.
@@ -35,7 +36,7 @@ class App extends React.Component {
           <Route exact path="/about" component={AboutPage}/>
           <Route exact path="/training" component={TrainingPage}/>
           <Route exact path="/mail" component={ContactPage}/>
-
+          <Route exact path="/gallery" component={GalleryPage}/>
         </Switch>
 
         <div className="clearfix"></div>

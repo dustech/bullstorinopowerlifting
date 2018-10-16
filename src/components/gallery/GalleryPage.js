@@ -1,54 +1,69 @@
 import React from "react";
 
-import ContactMapsIFrame from "./ContactMapsIFrame";
 
-const ContactPage = () => {
+const GalleryPage = () => {
   return (
     <div>
-      <div className="contact">
-        <div className="container">
-          <div className="agile-contact-form">
-            <div className="col-md-12 contact-form-left">
-              <div className="w3layouts-contact-form-top">
-                <h3>Scrivici</h3>
-                <p>
-                </p>
+      <div className="container">
+        <div className="row">
+
+          <div className="col-md-4">
+            <a href="images/g2.jpg" className="big"><img src="images/g2.jpg" alt=""/></a>
+          </div>
+          <div className="col-md-4">
+            <a href="images/g6.jpg" className="big"><img src="images/g6.jpg" alt=""/></a>
+          </div>
+          <div className="col-md-4">
+            <a href="images/g4.jpg" className="big"><img src="images/g4.jpg" alt=""/></a>
+          </div>
+
+        </div>
+        <hr/>
+          <div className="row">
+            <div className="col-md-4">
+              <a href="images/g7.jpg" className="big"><img src="images/g7.jpg" alt=""/></a>
+            </div>
+            <div className="col-md-4">
+              <a href="images/g8.jpg" className="big"><img src="images/g8.jpg" alt=""/></a>
+            </div>
+            <div className="col-md-4">
+              <a href="images/g10.jpg" className="big"><img src="images/g10.jpg" alt=""/></a>
+            </div>
+          </div>
+          <hr/>
+            <div className="row">
+              <div className="col-md-4">
+                <a href="images/g11.jpg" className="big"><img src="images/g11.jpg" alt=""/></a>
               </div>
-              <div className="agileits-contact-address">
-                <ul>
-                  <li><i className="fa fa-phone" aria-hidden="true"></i> <span><a href="tel:+393939972877">Andrea Mirabelli +39 393 9972877</a></span>
-                  </li>
-                  <li><i className="fa fa-phone" aria-hidden="true"></i> <span><a href="tel:+393493582901">Stefano Masiello +39 349 3582901</a></span>
-                  </li>
-                  <li><i className="fa fa-phone fa-envelope" aria-hidden="true"></i> <span><a href="mailto:bullstorinopowerlifting@gmail.com">bullstorinopowerlifting@gmail.com</a></span>
-                  </li>
-                  <li><i className="fa fa-map-marker" aria-hidden="true"></i> <span>Via Gioachino Quarello 15/A - 10135 Torino c/o CUS TORINO</span>
-                  </li>
-                </ul>
+              <div className="col-md-4">
+                <a href="images/g12.jpg" className="big"><img src="images/g12.jpg" alt=""/></a>
+              </div>
+              <div className="col-md-4">
+                <a href="images/g13.jpg" className="big"><img src="images/g13.jpg" alt=""/></a>
               </div>
             </div>
-
-            <div className="clearfix"></div>
-          </div>
-
-          <div className="w3agile-map">
-            <h3>Dove trovarci</h3>
-            <p>
-              La nostra tana si trova in Via Gioachino Quarello 15/A c/o CUS Torino. Usa la mappa sottostante per
-              raggiungerci.
-            </p>
-            <ContactMapsIFrame></ContactMapsIFrame>
-          </div>
-        </div>
+            <hr/>
+              <div className="row">
+                <div className="col-md-4">
+                  <a href="images/g14.jpg" className="big"><img src="images/g14.jpg" alt=""/></a>
+                </div>
+                <div className="col-md-4">
+                  <a href="images/g15.jpg" className="big"><img src="images/g15.jpg" alt=""/></a>
+                </div>
+                <div className="col-md-4">
+                  <a href="images/g16.jpg" className="big"><img src="images/g16.jpg" alt=""/></a>
+                </div>
+              </div>
+              <hr/>
       </div>
     </div>
   );
 };
 
-ContactPage.propTypes = {
+GalleryPage.propTypes = {
   /*  activeStyle: PropTypes.object.isRequired,
     title: PropTypes.string.isRequired*/
 };
 
 
-export default ContactPage;
+export default GalleryPage;
