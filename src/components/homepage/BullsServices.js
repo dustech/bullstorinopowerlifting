@@ -29,7 +29,7 @@ const BullsServices = () => {
                   <h4>Bench press</h4>
                   <p>La seconda alzata sarà la panca piana. In posizione sdraiata, si effetturà un movimento di
                     spinta. Verrà curata la tecnica, estremamente importante, la respirazione, la posizione dei
-                    piedi, gomiti, polsi e molto altro per avere sempre di più un'alzata perfetta sotto ogni punto
+                    piedi, gomiti, polsi e molto altro per avere sempre di più un&#39;alzata perfetta sotto ogni punto
                     di vista. </p>
                 </div>
               </div>

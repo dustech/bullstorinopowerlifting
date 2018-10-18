@@ -1,7 +1,5 @@
 import React from "react";
 import AboutCoach from "./AboutCoach";
-import Header from "../common/Header";
-import {Route} from "react-router-dom";
 
 const AboutTeam = () => {
 

@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from 'prop-types';
 
 const AboutCoach = ({image, name, facebookLink, instagramLink}) => {
 
@@ -19,5 +20,14 @@ const AboutCoach = ({image, name, facebookLink, instagramLink}) => {
       </div>
     </div>);
 };
+
+AboutCoach.propTypes = {
+  image: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  facebookLink: PropTypes.string.optional,
+  instagramLink: PropTypes.string.optional
+};
+
+
 
 export default AboutCoach;
