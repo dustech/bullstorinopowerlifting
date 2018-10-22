@@ -24,7 +24,6 @@ const Footer = ({activeStyle}) => {
               <FbIFrame/>
             </div>
 
-
           </div>
         </div>
       </div>
