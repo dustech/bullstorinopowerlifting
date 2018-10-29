@@ -1,4 +1,6 @@
 import React from 'react';
+import {NavLink} from "react-router-dom";
+
 
 const Slider = () => {
   return (
@@ -13,13 +15,13 @@ const Slider = () => {
                 <li>
                   <div className="w3ls-text">
                     <p>Torino Powerlifting</p>
-                    <a href="about.html">Scopri di più</a>
+                    <NavLink exact to="/about">Scopri di più</NavLink>
                   </div>
                 </li>
                 <li>
                   <div className="w3ls-text">
                     <p>Allenati con noi sulle alzate fondamentali del powerlifting</p>
-                    <a href="about.html">Scopri di più</a>
+                    <NavLink exact to="/about">Scopri di più</NavLink>
                   </div>
                 </li>
               </ul>
