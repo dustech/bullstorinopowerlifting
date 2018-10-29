@@ -4,6 +4,7 @@ import JarallaxHistory from "./JarallaxHistory";
 import React from "react";
 import jarallax from 'jarallax';
 import bindHome from "../../scripts/scripts";
+import BullsText from "./BullsText";
 /*
 const HomePage = () => {
 
@@ -30,6 +31,7 @@ class HomePage extends React.Component {
   render() {
     return (
       <div>
+        <BullsText/>
         <SocialGrids/>
         <BullsServices/>
         <JarallaxHistory/>
