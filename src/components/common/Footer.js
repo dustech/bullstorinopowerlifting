@@ -23,7 +23,15 @@ const Footer = ({activeStyle}) => {
               <h3>Seguici sui nostri social</h3>
               <FbIFrame/>
             </div>
+            <div className="col-md-3 w3-agile-footer-grid">
+              <a href="https://www.iubenda.com/privacy-policy/92453946"
+                 className="iubenda-black no-brand iubenda-embed " title="Privacy Policy">Privacy Policy</a>
+              <br/>
+              <a href="https://www.iubenda.com/privacy-policy/92453946/cookie-policy"
+                 className="iubenda-black no-brand iubenda-embed " title="Cookie Policy">Cookie Policy</a>
 
+
+            </div>
           </div>
         </div>
       </div>
