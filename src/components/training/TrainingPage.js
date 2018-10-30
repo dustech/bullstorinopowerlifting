@@ -72,8 +72,8 @@ const TrainingPage = () => {
             <div className="wthree-training-bottom-grids">
               <div className="col-md-4 wthree-training-bottom">
                 <h4>Richiedi la tua CUS card</h4>
-                <p>Richiedi la tua CUS card per avere delle promozioni in segretria oppure tramite il sito ufficiale CUS
-                  Torino. Potrai richiedere la tessera gratuitamente.</p>
+                <p>Richiedi la tua CUS card per avere delle promozioni in segreteria oppure tramite il sito ufficiale CUS
+                  Torino e potrai richiedere la tessera gratuitamente. Che aspetti? Powerlifing con il CUS conviene. Approfitta dello sconto per studenti!</p>
               </div>
               <div className="col-md-4 wthree-training-bottom">
                 <img src="images/gear.jpg" alt=""/>
