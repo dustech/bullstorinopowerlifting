@@ -25,7 +25,7 @@ class AboutChoose extends React.Component {
                 <h4>Qualità in ogni allenamento</h4>
                 <p>Attenzione estrema nella tecnica di ogni alzata del powerlifting. Partendo da zero fino ad ottenere
                   il
-                  massimo.</p>
+                  massimo. Inizia ad allenarti e cerca sempre allenamenti di qualità.</p>
               </div>
             </div>
             <div className="col-sm-4 agile-choose-grid">
@@ -35,7 +35,7 @@ class AboutChoose extends React.Component {
               <div className="choose-info">
                 <h4>Tecnica in ogni alzata</h4>
                 <p>Curiamo la tecnica in tutte le alzate del powerlifting. Attenzione ai particolari di ogni alzata per
-                  rendere efficace ogni allenamento.</p>
+                  rendere efficace ogni allenamento. Verrai seguito in tutti i movimenti di tutte le alzate del powerlifting.</p>
               </div>
             </div>
             <div className="col-sm-4 agile-choose-grid">
@@ -43,10 +43,10 @@ class AboutChoose extends React.Component {
                 <i className="fa fa-thumbs-o-up" aria-hidden="true"></i>
               </div>
               <div className="choose-info">
-                <h4>Allenamenti personalizzati per ogni atleta</h4>
+                <h4>Allenamenti personalizzati</h4>
                 <p>Protocolli di allenamento personalizzati per ogni atleta in base alle esigenze dello stesso e al
                   periodo di
-                  allenamento.</p>
+                  allenamento. Ti verrà dedicato un allenamento in base alle tue esigenze e in base al tipo di gara da preparare.</p>
               </div>
             </div>
           </div>

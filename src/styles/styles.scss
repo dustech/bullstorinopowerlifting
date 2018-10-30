@@ -225,7 +225,7 @@ html, body{
   color: #000000;
   text-decoration: none;
   font-weight: 600;
-  font-size: 1em;
+  font-size: 22px;
 }
 .header-right nav ul li a span{
   display: block;
@@ -690,7 +690,7 @@ html, body{
 }
 .rides-grid-info h4,.wthree-top-grid h4,.choose-info h4{
   color: #000000;
-  font-size: 1.2em;
+  font-size: 30px;
   margin: 1em 0;
   font-weight: 600;
   letter-spacing: 1px;
@@ -698,7 +698,7 @@ html, body{
 }
 .rides-grid-info p,.wthree-top-grid p,.choose-info p,.w3layouts-contact-form-top p{
   color: #999999;
-  font-size: .9em;
+  font-size: 20px;
   line-height: 1.8em;
   margin: 0;
 }
@@ -1196,8 +1196,7 @@ h2.typoh2{
 }
 .ih-item.circle {
   position: relative;
-  width: 220px;
-  height: 220px;
+
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1207,8 +1206,7 @@ h2.typoh2{
 }
 .ih-item.circle .img {
   position: relative;
-  width: 220px;
-  height: 220px;
+
   border-radius: 50%;
 }
 .ih-item.circle .img:before {
@@ -1304,14 +1302,21 @@ h2.typoh2{
 }
 
 .ih-item.circle.effect10.bottom_to_top .info h3 {
-  margin: 6.5em 0 1em 0;
-  font-size: 1.2em;
+  position:relative;
+  top:300px;
   color: #FFF;
+
 }
 .ih-item.circle.effect10.bottom_to_top .info p {
   margin: 0 30px;
   padding: 5px;
 }
+
+.icons {
+  top: 310px;
+  position: relative;
+}
+
 .ih-item.circle.effect10.bottom_to_top:hover .img {
   -webkit-transform: translateY(-50px) scale(0.5);
   -moz-transform: translateY(-50px) scale(0.5);
@@ -2316,3 +2321,14 @@ button.btn1:hover{
 .tg .tg-q3eh{border:0;background-color:#68cbd0;text-align:center;vertical-align:top}
 .tg .tg-yj2n{border:0;font-weight:bold;background-color:rgb(60, 179, 113);text-align:center}
 .tg .tg-35ul{border:0;font-weight:bold;background-color:rgb(255, 165, 0);text-align:center;vertical-align:top}
+
+
+
+.gallery-style {
+  margin-top:30px;
+}
+
+
+.margin-bottom {
+  margin-bottom:30px;
+}

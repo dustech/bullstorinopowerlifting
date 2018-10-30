@@ -4,7 +4,7 @@ import React from "react";
 const GalleryPage = () => {
   return (
     <div>
-      <div className="container">
+      <div className="container gallery-style">
         <div className="row">
 
           <div className="col-md-4">
@@ -18,8 +18,7 @@ const GalleryPage = () => {
           </div>
 
         </div>
-        <hr/>
-          <div className="row">
+          <div className="row gallery-style">
             <div className="col-md-4">
               <a href="images/g7.jpg" className="big"><img src="images/g7.jpg" alt=""/></a>
             </div>
@@ -30,8 +29,8 @@ const GalleryPage = () => {
               <a href="images/g10.jpg" className="big"><img src="images/g10.jpg" alt=""/></a>
             </div>
           </div>
-          <hr/>
-            <div className="row">
+
+            <div className="row gallery-style">
               <div className="col-md-4">
                 <a href="images/g11.jpg" className="big"><img src="images/g11.jpg" alt=""/></a>
               </div>
@@ -42,8 +41,8 @@ const GalleryPage = () => {
                 <a href="images/g13.jpg" className="big"><img src="images/g13.jpg" alt=""/></a>
               </div>
             </div>
-            <hr/>
-              <div className="row">
+
+              <div className="row gallery-style margin-bottom">
                 <div className="col-md-4">
                   <a href="images/g14.jpg" className="big"><img src="images/g14.jpg" alt=""/></a>
                 </div>
@@ -54,7 +53,6 @@ const GalleryPage = () => {
                   <a href="images/g16.jpg" className="big"><img src="images/g16.jpg" alt=""/></a>
                 </div>
               </div>
-              <hr/>
       </div>
     </div>
   );

@@ -14,7 +14,7 @@ const HomeMenu = ({activeStyle}) => {
           <div className="header-top">
             <div className="container banner-drop">
               <div className="agile-logo">
-                <h1><NavLink exact to="/">Bulls<span>Torino Powerlifting</span></NavLink></h1>
+                <img src="images/logo-bulls.png" alt="bull-powerlifting-torino"/>
               </div>
               <div className="header-right">
                 <MainMenu activeStyle={activeStyle}/>

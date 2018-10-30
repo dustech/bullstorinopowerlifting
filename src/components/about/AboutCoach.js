@@ -12,6 +12,7 @@ const AboutCoach = ({image, name, facebookLink, instagramLink}) => {
           <div className="icons">
             <ul>
               <li><a href={facebookLink}><i className="fa fa-facebook"></i></a></li>
+
               <li><a href={instagramLink}><i className="fa fa-instagram"></i></a>
               </li>
             </ul>
