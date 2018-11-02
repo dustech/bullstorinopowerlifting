@@ -8,11 +8,13 @@ const ContactPage = () => {
       <div className="contact">
         <div className="container">
           <div className="agile-contact-form">
-            <div className="col-md-12 contact-form-left">
+            <div className="row">
+              <div className="col-md-5">
+                <img src="images/come-contattarci.jpg" className="img-responsive center-block"/>
+              </div>
+            <div className="col-md-7 contact-form-left">
               <div className="w3layouts-contact-form-top">
-                <h3>Scrivici</h3>
-                <p>
-                </p>
+                <h3>I nostri contatti</h3>
               </div>
               <div className="agileits-contact-address">
                 <ul>
@@ -28,9 +30,12 @@ const ContactPage = () => {
               </div>
             </div>
 
+
+
+
             <div className="clearfix"></div>
           </div>
-
+          </div>
           <div className="w3agile-map">
             <h3>Dove trovarci</h3>
             <p>
