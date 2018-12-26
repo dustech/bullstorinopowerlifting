@@ -552,13 +552,14 @@ html, body{
 .w3layouts-services-heading{
   text-align:center;
 }
-.w3layouts-services-heading h2,.w3-agileits-rides-heading h3,.w3-training-heading h3,.agileits-about-top-heading h3,.w3layouts-contact-form-top h3,.contact-form-top h3,.w3agile-map h3,.agileits_three_comments h3,.w3_leave_comment h3{
+.w3layouts-services-heading h2,.w3-agileits-rides-heading h3,.w3-training-heading h3,.agileits-about-top-heading h3,.contact-form-top h3,.w3agile-map h3,.agileits_three_comments h3,.w3_leave_comment h3{
   color: #B6D941;
   font-size: 2em;
-  margin: 0;
+  margin: 30px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 2px;
+  text-align: center;
 }
 .w3-services-grids {
   margin: 4em 0 0 0;
@@ -691,16 +692,18 @@ html, body{
 .rides-grid-info h4,.wthree-top-grid h4,.choose-info h4{
   color: #000000;
   font-size: 30px;
-  margin: 1em 0;
+  margin: 30px;
   font-weight: 600;
   letter-spacing: 1px;
   text-transform: capitalize;
+  text-align: center;
 }
 .rides-grid-info p,.wthree-top-grid p,.choose-info p,.w3layouts-contact-form-top p{
   color: #999999;
   font-size: 20px;
   line-height: 1.8em;
   margin: 0;
+  text-align: center;
 }
 /*-- //rides --*/
 /*-- footer --*/
@@ -1045,7 +1048,8 @@ h2.typoh2{
   padding: 4em 0;
 }
 .w3-training-heading h3{
-  margin:0 0 1em 0 !important;
+  margin:0 0 5px 0 !important;
+  text-align: center;
 }
 .schedule-heading h3{
   color:#000000 !important;
@@ -1092,12 +1096,14 @@ h2.typoh2{
   font-weight: 600;
   text-transform: capitalize;
   line-height: 1.5em;
+  text-align: center;
 }
 .wthree-training-bottom p{
   color: #999999;
   font-size: .9em;
   line-height: 1.8em;
   margin: 0 0 1em 0;
+  text-align: center;
 }
 .wthree-training-bottom ul{
   margin:0;
@@ -1169,9 +1175,9 @@ h2.typoh2{
 }
 .choose-icon i.fa.fa-user,.choose-icon i.fa.fa-cogs,.choose-icon i.fa.fa-thumbs-o-up {
   background: #B6D941;
-  padding: .9em 0 0 0;
   width: 90px;
   height: 90px;
+  line-height: 90px;
   color: #FFFFFF;
   font-size: 2em;
   border-radius: 50%;
@@ -1827,9 +1833,10 @@ button.btn1:hover{
     width: 115px;
     height: 115px;
   }
-  .agileits-training-right,.wthree-training-bottom {
+  .agileits-training-right {
     margin: 1em 0 0 0;
   }
+
   .w3_leave_comment {
     width: 80%;
   }
@@ -2067,6 +2074,7 @@ button.btn1:hover{
   .w3l-training-grids {
     padding: 2em 0;
   }
+
   .w3layouts-training-top {
     padding: 2em 0;
   }
@@ -2109,6 +2117,7 @@ button.btn1:hover{
   .w3ls-text a {
     width: 21%;
   }
+
   .page-header__content .text-bg svg {
     width: 100%;
     height: 320px;
@@ -2331,4 +2340,28 @@ button.btn1:hover{
 
 .margin-bottom {
   margin-bottom:30px;
+}
+
+.text {
+  color: #B6D941;
+  font-size: 2em;
+  margin: 0;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.w3l-contact-grids {
+  padding: 2em 0;
+}
+
+
+.w3layouts-contact-form-top h3 {
+  color: #B6D941;
+  font-size: 2em;
+  margin: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: left;
 }
