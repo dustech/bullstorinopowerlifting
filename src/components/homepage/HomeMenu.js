@@ -1,4 +1,4 @@
-import {NavLink} from "react-router-dom";
+
 import MainMenu from "../common/MainMenu";
 import Slider from "./Slider";
 import React from "react";

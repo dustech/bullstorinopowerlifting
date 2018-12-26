@@ -14,7 +14,7 @@ import './styles/miFix.scss';
 
 import './styles/table-style.scss';
 import './styles/basictable.scss';
-
+import './styles/lightbox2import.scss';
 
 import './scripts/scripts';
 
