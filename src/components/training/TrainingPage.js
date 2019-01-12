@@ -17,7 +17,7 @@ const TrainingPage = () => {
                 <h4>Bulls powerlifting Torino</h4>
                 <p>Siamo da più di 10 anni nel campo del powerlifing e gareggiamo nelle principali federazioni tra cui
                   FIPL, FIPE, WDPF, WEC. Scopri, inoltre, i nostri allenamenti al femminile. Classi di powerlifing per
-                  sole donne con le atlete più forti della squadra. Diffida da chi dice "una donna che si allena con i pesi diventa muscolosa come un uomo."
+                  sole donne con le atlete più forti della squadra. Diffida da chi dice &quote;una donna che si allena con i pesi diventa muscolosa come un uomo.&quote;
                   Inizia ad allenarti con noi. Non te ne pentirai!</p>
                 <NavLink exact to="/mail" ><span>Scrivici</span></NavLink>
               </div>
@@ -28,44 +28,6 @@ const TrainingPage = () => {
             </div>
           </div>
         </div>
-        <div className="w3layouts-training-top">
-          <div className="container">
-            <div className="w3-training-heading schedule-heading">
-              <h3>Prezzi</h3>
-
-            <table className="tg">
-              <tbody>
-              <tr>
-                <th className="tg-yj2n" colSpan="4">ESTERNI</th>
-                <th className="tg-35ul" colSpan="4">UNIVERSITARI/CONVENZIONATI</th>
-              </tr>
-              <tr>
-                <td className="tg-q3eh">1 MESE / 10 INGRESSI</td>
-                <td className="tg-q3eh">3 MESI</td>
-                <td className="tg-q3eh">6 MESI</td>
-                <td className="tg-q3eh">12 MESI</td>
-                <td className="tg-q3eh">1 MESE/ 10 INGRESSI</td>
-                <td className="tg-q3eh">3 MESI</td>
-                <td className="tg-q3eh">6 MESI</td>
-                <td className="tg-q3eh">12 MESI</td>
-              </tr>
-              <tr>
-                <td className="tg-baqh">50€</td>
-                <td className="tg-baqh">100€</td>
-                <td className="tg-baqh">200€</td>
-                <td className="tg-baqh">300€</td>
-                <td className="tg-baqh">45€</td>
-                <td className="tg-baqh">90€</td>
-                <td className="tg-baqh">180€</td>
-                <td className="tg-baqh">280€</td>
-              </tr>
-              </tbody>
-            </table>
-            </div>
-
-          </div>
-        </div>
-
         <div className="agileinfo-training-bottom">
           <div className="container">
             <div className="w3-training-heading">
