@@ -23,6 +23,7 @@ import './scripts/scripts';
 require('./favicon.ico'); // Tell webpack to load favicon.ico
 const store = configureStore();
 
+
 render(
   <AppContainer>
     <Root store={store} history={history} />
